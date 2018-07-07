@@ -1,0 +1,90 @@
+body{
+    color: black;
+    background-color:rgb(207, 202, 202);
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: right;
+}
+#titulo1{
+    text-decoration: underline;
+    color:black 
+}
+.titulo1{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin:20px;
+    border:2px solid blue;
+    text-align: center;   
+}
+
+.titulo2{
+    text-decoration: underline;
+    text-align: center;
+    color:black;
+  
+}
+
+.nombre {
+    text-align: center; 
+    text-shadow: 2px 1px #727272;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.e2{
+    color:red;
+    background-color:green;
+}
+
+[data-vegetable]{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin:20px;
+    border:2px solid blue;
+}
+
+[data-quantity="1kg"]{
+    background-color: white;
+    color: black;
+    padding: 16px;
+    margin:4px;
+    border:2px solid blue;
+}
+
+[data-quantity~="kg"]{
+    background-color: white;
+    color: red;
+    padding: 10px;
+    margin:4px;
+    border:2px solid purple;
+}
+
+.division1{
+    
+    width: 40%;
+    height: 900px;
+    background-color:rgb(158, 166, 238);
+    float: left
+}
+
+.division2{
+    width: 20%;
+    height: 900px;
+    float: left
+}
+
+.division3{
+    width: 40%;
+    height: 900px;
+    float: left
+}
